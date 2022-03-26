@@ -12,3 +12,7 @@ class Solution:
         return -1
 
         # Solution 2
+        # index = bisect.bisect_left(nums, target)
+        # return index if index < len(nums) and nums[index] == target else -1
+
+        # Solution 3
